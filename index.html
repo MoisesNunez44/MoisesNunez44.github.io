@@ -1,12 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Moises Nuñez</title>
+    <title>Portafolio Moises Nuñez</title>
+    <link rel="stylesheet" href="estils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Hola, Soc en Moises Nuñez</h1>
-    
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">Moises Nuñez</a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Inicio</a>
+                <a href="projects.html">Proyectos</a>
+                <a href="videocv.html">Videocurrículum</a>
+                <a href="cv.html">CV</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <section class="hero">
+            <div class="hero-text">
+                <p class="eyebrow">Desarrollador Web en formación</p>
+                <h1>Hola, soy <span>Moises Nuñez</span></h1>
+                <p class="typing">Desarrollador web en formación, especializado en soluciones prácticas y adaptables. Trabajo con WordPress, HTML, CSS, JS, PHP y soporte técnico, entregando resultados limpios y fáciles de usar.</p>
+                <a class="button" href="cv.html"><i class="fas fa-download"></i> Ver mi CV</a>
+            </div>
+            <div class="hero-card">
+                <div class="info-card">
+                    <h2><i class="fas fa-user"></i> Perfil</h2>
+                    <p>Responsable, adaptable, con ganas de aprender y con buena capacidad para trabajar en entornos dinámicos y colaborativos.</p>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> <strong>Teléfono:</strong> +34 667 26 08 98</li>
+                        <li><i class="fas fa-envelope"></i> <strong>Email:</strong> moieti469@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> Girona, España</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section">
+            <h2><i class="fas fa-tools"></i> Qué puedo aportar</h2>
+            <div class="grid-3">
+                <article>
+                    <div class="icon"><i class="fas fa-code"></i></div>
+                    <h3>Desarrollo Web</h3>
+                    <p>Diseño y construcción de páginas con HTML, CSS y WordPress, creando experiencias funcionales y adaptadas a dispositivos móviles.</p>
+                </article>
+                <article>
+                    <div class="icon"><i class="fas fa-cogs"></i></div>
+                    <h3>Soporte Técnico</h3>
+                    <p>Instalación de sistemas operativos, reparación de equipos y resolución de incidencias con experiencia práctica en Windows, Mac y Linux.</p>
+                </article>
+                <article>
+                    <div class="icon"><i class="fas fa-users"></i></div>
+                    <h3>Trabajo en equipo</h3>
+                    <p>Comunicación constante, adaptación rápida y compromiso para cumplir objetivos en proyectos compartidos y en atención al cliente.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section experience-section">
+            <div class="section-header">
+                <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
+                <p>He trabajado en proyectos reales y en servicios al cliente, lo que me ha permitido desarrollar habilidades técnicas y atención profesional.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-building"></i></div>
+                    <h3>FCT - Tecnigi</h3>
+                    <p>Desarrollo y mantenimiento de webs con WordPress, HTML, CSS y SEO. Soporte técnico, reparación de equipos e instalación de sistemas operativos.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Taco Bell - Verano 2024</h3>
+                    <p>Atención al cliente, preparación de alimentos, organización del espacio y operación en un equipo rápido y exigente.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section project-preview">
+            <h2><i class="fas fa-project-diagram"></i> Proyectos activos</h2>
+            <div class="grid-2">
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-car"></i></div>
+                    <h3>EuroDrive</h3>
+                    <p>Sitio publicado para un amigo que trabaja con importación de vehículos. Enlace activo para ver la demo actual.</p>
+                    <a class="button" href="projects.html">Ver proyecto</a>
+                </article>
+                <article class="project-card">
+                    <div class="project-icon"><i class="fas fa-dumbbell"></i></div>
+                    <h3>Gym Demo</h3>
+                    <p>Proyecto en desarrollo para un cliente, enfocado en una página de gimnasio con diseño moderno y contenido de servicios.</p>
+                    <a class="button" href="projects.html">Ver proyecto</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section education-section">
+            <h2><i class="fas fa-graduation-cap"></i> Formación</h2>
+            <div class="grid-2">
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-code-branch"></i></div>
+                    <h3>CFGS DAW</h3>
+                    <p>Desarrollo de Aplicaciones Web - IES Montilivi (09/2024 - Actual)</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-tools"></i></div>
+                    <h3>CFGM SMX</h3>
+                    <p>Mantenimiento de equipos informáticos - IES Salvador Espriu (09/2021 - 06/2023)</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon"><i class="fas fa-school"></i></div>
+                    <h3>ESO</h3>
+                    <p>IES Santa Eugenia (09/2017 - 06/2021)</p>
+                </div>
+            </div>
+        </section>
+        <section class="section contact-section">
+            <h2><i class="fas fa-envelope"></i> Contacto</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Teléfono</h3>
+                    <p>+34 667 26 08 98</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>moieti469@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Ubicación</h3>
+                    <p>Carrer Santiago Sobreques i Vidal 4</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/MoisesNunez44" target="_blank">github.com/MoisesNunez44</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© 2026 Moises Nuñez. Portafolio personal y CV. <i class="fas fa-heart"></i></p>
+        </div>
+    </footer>
 </body>
 </html>
